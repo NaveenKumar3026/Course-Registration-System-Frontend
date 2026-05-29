@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="/myscript.js"></script>
+
+    <style>
+        td{
+            background-color: aliceblue;
+        }
+        body{
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <table align="center" style="background-color: lightblue;">
+            <th width="100">Id</th>
+            <th width="150">Name</th>
+            <th width="200">Email ID</th>
+            <th width="140">Course name</th>
+        </tr>
+
+        <tbody id="enrolledtable" align="center"></tbody> <!-- Table body where rows will be inserted -->
+    </table>
+
+
+
+
+    <script type="text/javascript">
+        window.onload = function(){
+            showEnrolledStudents();
+        };
+    </script>
+        
+</body>
+

@@ -31,7 +31,7 @@ function showEnrolledStudents(){
                 <td>${student.courseName}</td>
             </tr>`
 
-            dataTable.innerHTML += ro;
+            dataTable.innerHTML += row;
         });
     });
 }
